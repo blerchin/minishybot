@@ -17,7 +17,6 @@
 
 #include <RedBot.h>
 
-const int buzzerPin = 9;
 const int ledPin = 13;
 const int pirLeftPin = A0;
 const int pirRightPin = A1;
@@ -26,7 +25,6 @@ void setup()
 {
   pinMode(pirLeftPin, INPUT_PULLUP);
   pinMode(pirRightPin, INPUT_PULLUP);
-  pinMode(buzzerPin, OUTPUT);  // configures the buzzerPin as an OUTPUT
   pinMode(ledPin, OUTPUT);
   delay(2000);
 }
@@ -39,9 +37,7 @@ void loop()
       digitalWrite(ledPin, HIGH);
     } else {
       digitalWrite(ledPin, LOW);
-      noTone(buzzerPin);
     }
-    //  the variable "buzzerPin". 
     delay(125);   // Wait for 125ms. 
 }
 

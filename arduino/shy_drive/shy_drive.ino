@@ -1,18 +1,13 @@
 /***********************************************************************
- * Exp5_Bumpers -- RedBot Experiment 5
+ * MiniShyBot -- Shy Drive
  * 
- * Now let's experiment with the whisker bumpers. These super-simple switches
- * let you detect a collision before it really happens- the whisker will
- * bump something before your robot crashes into it.
- * 
- * This sketch was written by SparkFun Electronics, with lots of help from 
+ * This sketch was based on code written by SparkFun Electronics, with lots of help from 
  * the Arduino community.
  * This code is completely free for any use.
- * Visit https://learn.sparkfun.com/tutorials/redbot-inventors-kit-guide 
- * for SIK information.
  * 
  * 8 Oct 2013 M. Hord
  * Revised 30 Oct 2014 B. Huang
+ * PIR functionality added 26 August 2017 B. Lerchin
  ***********************************************************************/
 
 #include <RedBot.h>
